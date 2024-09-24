@@ -1,0 +1,85 @@
+/* src/components/Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2A546D; /* Background color */
+}
+
+.login-card {
+    background-color: #fff; /* White background for the card */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Card width */
+    text-align: center; /* Center align text */
+}
+
+.logo {
+    width: 100px; /* Adjust size as needed */
+    margin-bottom: 20px; /* Space below the logo */
+    display: block; /* Center the logo */
+    margin-left: auto; /* Center alignment */
+    margin-right: auto; /* Center alignment */
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left; /* Align labels to the left */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2A546D; /* Text color matching the background */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #2A546D; /* Match border color with background */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #0056b3; /* Change border color on focus */
+    outline: none;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: #007bff; /* Bootstrap primary color */
+    display: block; /* Make it block for better spacing */
+    margin-bottom: 20px; /* Space above the button */
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2A546D; /* Match button background color with container */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-button:hover {
+    background-color:black; /* Darker shade on hover */
+}
+
+.signup-prompt {
+    margin-top: 15px;
+}
